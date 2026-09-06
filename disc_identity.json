@@ -1,0 +1,24 @@
+{
+  "schema": "psx.redump-disc-set.v1",
+  "discs": [
+    {
+      "index": 1,
+      "cue_name": "Spider-Man (USA).cue",
+      "bin_name": "Spider-Man (USA).bin",
+      "size": 729736224,
+      "md5": "0885834dd8842a93b300609e06a5caa6",
+      "sha1": "65f186e0c8735f89768c6f782203882e95b02a29",
+      "crc32": "bf1c7eff",
+      "track_count": 1,
+      "tracks": [
+        {
+          "name": "Spider-Man (USA).bin",
+          "size": "729736224",
+          "crc": "bf1c7eff",
+          "md5": "0885834dd8842a93b300609e06a5caa6",
+          "sha1": "65f186e0c8735f89768c6f782203882e95b02a29"
+        }
+      ]
+    }
+  ]
+}

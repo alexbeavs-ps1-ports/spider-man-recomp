@@ -1,0 +1,44 @@
+
+[game]
+name = "Spider-Man"
+id = "SLUS-00875"
+players = 1
+exe = "disc/SLUS_008.75"
+disc = "disc/Spider-Man (USA).cue"
+load_address = "0x80010000"
+entry_pc = "0x8008739C"
+text_size = "0x000B6800"
+stack_base = "0x801FFFF0"
+
+[prepare_disc]
+out_dir = "disc"
+bin_name = "Spider-Man (USA).bin"
+cue_name = "Spider-Man (USA).cue"
+boot_exe = "SLUS_008.75"
+known_sizes = [729736224]
+known_md5 = ["0885834dd8842a93b300609e06a5caa6"]
+known_sha1 = ["65f186e0c8735f89768c6f782203882e95b02a29"]
+known_crc32 = ["bf1c7eff"]
+
+[recompiler]
+bios_config = "psxrecomp/bios/SCPH5552.toml"
+seeds = "seeds/ghidra_funcs.txt"
+out_dir = "generated"
+strict = true
+
+[runtime]
+window_title = "Spider-Man Recompiled"
+memcard_dir = "saves"
+openbios = false
+
+[video]
+renderer = "opengl"
+aspect_ratio = "4:3"
+
+[controller]
+default_mode = "digital"
+
+[netplay]
+require_cue = true
+required_tracks = 1
+required_disc_fp = "687e9b7059c8ffb88d46f846a3e858e8d209890eedcc778762f7d149693566ca"
