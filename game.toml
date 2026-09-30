@@ -5,6 +5,8 @@ id = "SLUS-00875"
 players = 1
 exe = "disc/SLUS_008.75"
 disc = "disc/Spider-Man (USA).cue"
+discs = ["disc/Spider-Man (USA).cue"]
+disc_serials = ["SLUS-00875"]
 load_address = "0x80010000"
 entry_pc = "0x8008739C"
 text_size = "0x000B6800"
@@ -21,7 +23,7 @@ known_sha1 = ["65f186e0c8735f89768c6f782203882e95b02a29"]
 known_crc32 = ["bf1c7eff"]
 
 [recompiler]
-bios_config = "psxrecomp/bios/SCPH5552.toml"
+bios_config = "psxrecomp/bios/SCPH1001.toml"
 seeds = "seeds/ghidra_funcs.txt"
 out_dir = "generated"
 strict = true
